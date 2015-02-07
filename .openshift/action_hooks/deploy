@@ -5,6 +5,8 @@ from tiddlywebwiki import instance as twinstance
 from tiddlywebplugins.utils import get_store
 from tiddlyweb.config import config
 
+from tiddlyweb.store import Store
+
 from tiddlywebplugins.imaker import Instance
 
 def check_instance():
