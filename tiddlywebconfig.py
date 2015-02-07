@@ -13,6 +13,6 @@ config = {
     'server_host': {
         'scheme': 'http',
         'host': os.environ.get('OPENSHIFT_APP_DNS'),
-        'port': os.environ.get('OPENSHIFT_PYTHON_PORT'),
+        'port': '80'
     },
 }
