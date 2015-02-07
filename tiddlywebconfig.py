@@ -1,6 +1,7 @@
 import os
 
 config = {
+# needed to insure tiddlers filled in on deploy
     'instance_pkgstores': ['tiddlywebplugins.console', 'tiddlywebwiki'],
     'secret': os.environ.get('OPENSHIFT_SECRET_TOKEN'),
     'log_level': 'DEBUG',
