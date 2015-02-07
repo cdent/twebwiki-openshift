@@ -1,6 +1,7 @@
 import os
 
 config = {
+    'instance_pkgstores': ['tiddlywebplugins.console', 'tiddlywebwiki'],
     'secret': os.environ.get('OPENSHIFT_SECRET_TOKEN'),
     'log_level': 'DEBUG',
     'system_plugins': ['tiddlywebwiki'],
